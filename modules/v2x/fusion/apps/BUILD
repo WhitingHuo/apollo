@@ -12,6 +12,7 @@ cc_library(
     ],
     deps = [
         "//cyber/common:file",
+        "//modules/common/adapters:adapter_gflags",
         "//modules/common/math",
         "//modules/v2x/fusion/apps/common:apps_common",
         "//modules/v2x/fusion/configs:v2x_configs_lib",
